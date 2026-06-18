@@ -32,7 +32,7 @@ rightBtn.addEventListener("click", () => {
   setTimeout(()=>{
    img.src = images[count];
    img.classList.remove("fade");
-  },200);
+  },);
   
   console.log(count);
 });
@@ -47,7 +47,7 @@ leftBtn.addEventListener("click", () => {
   setTimeout(()=>{
    img.src = images[count];
    img.classList.remove("fade");
-  },200);
+  },);
   
   console.log(count);
 });
